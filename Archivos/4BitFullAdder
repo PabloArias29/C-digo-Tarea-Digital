@@ -10,7 +10,7 @@ reg [4:0] Sum;
 always @*
   Sum <= A + B + Cin;
   
-  assing S = Sum [3:0]<
+  assing S = Sum [3:0];
   assign Cout = Sum [4];
 
 endmodule
